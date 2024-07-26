@@ -1,8 +1,8 @@
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
+# load_dotenv()
 from langchain_openai import ChatOpenAI, OpenAI
 import os
 
-load_dotenv()
 API_KEY = os.getenv('OPEN_API_KEY')
 
 # Chat 모드
